@@ -4,6 +4,7 @@
 	"private": true,
 	"scripts": {
 		"dev": "rollup -c -w",
+		"build": "npm run build:svelte && npm run build:neu",
 		"build:svelte": "rollup -c",
 		"build:neu": "neu build --release",
 		"start:neu": "neu run"
