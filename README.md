@@ -23,6 +23,7 @@ Install the dependencies...
 ```bash
 cd svelte-neutralino-app
 npm install
+npx neu update
 ```
 
 ...then start [Rollup](https://rollupjs.org/):
