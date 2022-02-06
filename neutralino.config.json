@@ -1,10 +1,11 @@
 {
-	"applicationId": "svelte.neutralino.sample",
+	"applicationId": "js.neutralino.svelte",
 	"version": "1.0.0",
 	"defaultMode": "window",
 	"port": 0,
 	"documentRoot": "/www/",
 	"url": "/",
+	"tokenSecurity": "one-time",
 	"enableServer": true,
 	"enableNativeAPI": true,
 	"logging": {
@@ -12,7 +13,6 @@
 		"writeToLogFile": true
 	},
 	"nativeBlockList": [],
-	"globalVariables": {},
 	"modes": {
 		"window": {
 			"title": "Svelte Neutralino App",
@@ -35,16 +35,10 @@
 			"nativeBlockList": [
 				"filesystem.*"
 			]
-		},
-		"cloud": {
-			"url": "/www/#cloud",
-			"nativeAllowList": [
-				"app.*"
-			]
 		}
 	},
 	"cli": {
-		"binaryName": "svelte-neutralino-template",
+		"binaryName": "svelte-neutralino",
 		"resourcesPath": "/www/",
 		"extensionsPath": "/extensions/",
 		"clientLibrary": "/www/js/neutralino.js",
