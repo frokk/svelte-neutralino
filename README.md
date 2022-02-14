@@ -9,9 +9,10 @@ Neutralino App With Svelte As Frontend Framework
 To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 
 ```bash
-npx degit DEVLOPRR/svelte-neutralino-template svelte-neutralino-app
-cd svelte-neutralino-app
+npx create-neutralino-app
 ```
+
+Select The Svelte Template
 
 *Note that you will need to have [Node.js](https://nodejs.org) installed.*
 
@@ -22,6 +23,11 @@ Install the dependencies...
 
 ```bash
 npm install
+```
+
+Get the latest Neutralino Binaries & Client Library...
+
+```bash
 npx neu update
 ```
 
